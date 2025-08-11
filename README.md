@@ -23,9 +23,17 @@ This project demonstrates how to evaluate language model responses using LangSmi
    cd LangSmith-Evaluation-Quick-Start
    ```
 
-2. Install dependencies:
+2. Install dependencies using UV (recommended):
    ```bash
-   pip install -e .
+   # Install UV if you haven't already
+   curl -sSf https://astral.sh/uv/install.sh | sh
+   
+   # Create and activate virtual environment
+   uv venv
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   
+   # Install dependencies
+   uv sync
    ```
 
 3. Set up environment variables:
