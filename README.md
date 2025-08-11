@@ -19,8 +19,8 @@ This project demonstrates how to evaluate language model responses using LangSmi
 
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
-   cd evaluation_quick_start
+   git clone https://github.com/jameskanyiri/LangSmith-Evaluation-Quick-Start.git
+   cd LangSmith-Evaluation-Quick-Start
    ```
 
 2. Install dependencies:
